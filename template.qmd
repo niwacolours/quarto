@@ -74,6 +74,10 @@ If you want to use Python code check out the documentation [here](https://quarto
 
 - Check out the [Block options](https://quarto.org/docs/computations/execution-options.html) and edit (and add to) the existing code block options below to:
 
+```{r}
+6*7
+```
+
  - exclude the results, messages and warnings
 
  - exclude the code from the HTML output (make sure it still evaluates!)
@@ -88,7 +92,22 @@ If you want to use Python code check out the documentation [here](https://quarto
 
 if (!require("pacman")) install.packages("pacman", repos="http://cran.r-project.org")
 pacman::p_load(ggplot2, palmerpenguins)    # Install & load packages
+
 ```
+
+
+```{r}
+data(penguins)
+head(penguins)
+```
+
+
+```{r}
+#| echo: false
+data(penguins)
+head(penguins)
+```
+
 
 # Tabsets
 
