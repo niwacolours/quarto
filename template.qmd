@@ -144,6 +144,7 @@ content
 - There is a (royalty free) XKCD comic inside the images directory in the repo. [Check out the guide](https://quarto.org/docs/authoring/figures.html), and insert the image into one of the tabsets you just created.
 
 - render the document and hit the :heavy_check_mark: in zoom
+![an XKCD comic](images/fixing_problems.png)
 :::
 
 
