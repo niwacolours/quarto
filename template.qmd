@@ -1,13 +1,14 @@
 ---
-title: "Your awesome project title"
+title: "Collaborative Research with Quarto is great"
 author:
-  name: "You et al"
-  affiliation: "From whence you hail"
+  name: "NZ sc"
+  affiliation: "From whence you hail (NZ)"
 date: today
 bibliography: refs.bib
 from: markdown+emoji
 format:
   html:
+    toc: true
     code-fold: false
     link-external-newwindow: true
 theme:
