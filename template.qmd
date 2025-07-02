@@ -123,6 +123,19 @@ head(penguins)
 - render the document and hit the :heavy_check_mark: in zoom
 :::
 
+
+:::{.panel-tabset}
+# Tab 1
+```{r}
+data(penguins)
+head(penguins)
+```
+
+# Tab 2
+content
+:::
+
+
 # Images
 
 :::{.callout-tip}
